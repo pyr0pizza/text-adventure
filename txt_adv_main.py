@@ -1,5 +1,5 @@
 #imports
-
+import random
 
 
 #functions
@@ -16,7 +16,7 @@
 
 def adventure_game():
     print("Welcome to Python TxtRPG \n")
-
+    input("What do you do:  ")
 
 
 adventure_game()
