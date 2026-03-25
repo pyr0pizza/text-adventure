@@ -1,6 +1,6 @@
 #imports
 import random
-
+import string
 
 #functions
 
@@ -14,9 +14,16 @@ import random
 
 #game
 
-def adventure_game():
+def main():
     print("Welcome to Python TxtRPG \n")
-    input("What do you do:  ")
+
+    while True:
+        choice = input("What do you do:  ").strip()
+    
+        if choice == ("exit"):
+            print("Game Over \n")
+            break
 
 
-adventure_game()
+
+main()
